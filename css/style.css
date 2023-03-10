@@ -30,11 +30,49 @@ form{
     flex-direction: column;
     gap: 10px;
     font-size: 16px;
+    justify-content: center;
+    align-items: center;
     color: black;
+    border: 2px solid;
+    width: 250px;
+    border-radius: 50px;
+    background: skyblue;
+    
+}
+form:hover{
+    background: lightgreen;
+    color: white;
+}
+.contactus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
 }
 .main{
-    margin-left: 20px;
+    width: 90%;
+    margin: 0 auto;
 }
+.c{
+    display: flex;
+    margin-left: 400px;
+    background-image: url(../pexels-photo.webp);
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-position: center;
+    background-size: cover;
+    
+}
+.c:hover{
+    transform: scale(0.9);
+}
+
+
 input[type=text]{
     width: 150px;
 }
@@ -55,6 +93,12 @@ input[type=message]{
     background: blue;
     color: white;
     border: none;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background: violet ;
+    color: black;
+    letter-spacing: 4px;
 }
 h1{
     font-size: 36px;
