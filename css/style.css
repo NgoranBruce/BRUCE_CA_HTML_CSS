@@ -64,6 +64,10 @@ h1{
     font-size: 28px;
 
 }
+.h2{
+    font-size: 36px;
+    text-align: center;
+}
 p{
     font-size: 18px;
     color: black;
@@ -71,4 +75,7 @@ p{
 ol{
     display: flex;
     gap: 40px;
+}
+.top{
+    margin-left: 10px;
 }
