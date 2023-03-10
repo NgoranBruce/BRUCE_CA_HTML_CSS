@@ -2,6 +2,10 @@ body{
     background: lightgray;
     margin: 0;
 }
+body:hover{
+    background: greenyellow;
+    color: white;
+}
 *{
     font-family: Arial, sans-serif;
 }
@@ -24,6 +28,10 @@ ul li{
 .nav{
     background: gray;
     height: 50px;
+}
+ul a:hover{
+    color: gold;
+    color: white;
 }
 form{
     display: flex;
